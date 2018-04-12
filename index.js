@@ -40,8 +40,11 @@ function longPlaneteerCalls(words) {
 function wordsWithB(words){
   var names = [];
   for (i = 0; i < words.length, i++) {
-    if (words[i] === )
+    if (words[i].startsWith('b')) {
+      names.push(words[i]);
+    }
   }
+  return names;
 }
 
 // 'bob'.startsWith('b') => true
