@@ -36,6 +36,21 @@ function longPlaneteerCalls(words) {
    }
    return "no cheese!";
  }
+
+function wordsWithB(words){
+  var names = [];
+  for (i = 0; i < words.length, i++) {
+    if (words[i] === )
+  }
+}
+
+// 'bob'.startsWith('b') => true
+// 'sally'.startsWith('b') => false
+
+// wordsWithB(['sally', 'james', 'bob']) => ['bob']
+// wordsWithB(['sally', 'brian', 'bob']) => ['brian', 'bob']
+// wordsWithB(['sally', 'james']) => []
+
 =======
   var dwarfString = "";
   for (let i = 0; 1 < dwarves.length; i++) {
