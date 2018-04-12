@@ -1,6 +1,6 @@
 function dwarfRollCall(dwarves) {
    var dwarfString = "";
-  for (let i = 0; i > (dwarves.length/2); i++) {
+  for (let i = (dwarves.length/2); i < dwarves.length; i++) {
     dwarfString += (i+1).toString() + ". " + dwarves[i] + " ";
      }
      return dwarfString;
