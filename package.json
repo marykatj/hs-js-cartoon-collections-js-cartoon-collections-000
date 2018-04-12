@@ -2,6 +2,13 @@
   "name": "js-cartoon-collections",
   "version": "0.1.0",
   "description": "Practice with loops, arrays, and functions in JavaScript on Learn",
+<<<<<<< HEAD
+=======
+  "engines": {
+    "node": ">= 5.3",
+    "npm": ">= 3.5"
+  },
+>>>>>>> e7f8e35bf36dc033fccc6227b2657ba95947ca2a
   "main": "index.js",
   "scripts": {
     "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
